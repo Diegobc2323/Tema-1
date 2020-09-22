@@ -16,8 +16,4 @@ Algoritmo Saludar
 	
 	Escribir "Hola " nombre " tienes " edad " años.";
 	
-	//Escribir "Nombre: " nombre;
-	//Escribir "Edad: " nombre;
-	//Escribir "¿Carnet?: " nombre;
-	
 FinAlgoritmo
