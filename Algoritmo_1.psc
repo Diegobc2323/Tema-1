@@ -4,13 +4,20 @@ Algoritmo Saludar
 	Definir edad Como Entero;
 	Definir carnet Como Logico;
 	
-	nombre = "Diego";
-	edad = 19;
-	carnet = Verdadero;
+	nombre = "";
+	edad = 0;
+	
+	Escribir "dime tu nombre";
+	Leer nombre;
+	
+	Escribir "dime tu edad";
+	Leer edad;
 	
 	
-	Escribir "Nombre: " nombre;
-	Escribir "Edad: " edad;
-	Escribir "¿Carnet?: " carnet;
+	Escribir "Hola " nombre " tienes " edad " años.";
+	
+	//Escribir "Nombre: " nombre;
+	//Escribir "Edad: " nombre;
+	//Escribir "¿Carnet?: " nombre;
 	
 FinAlgoritmo
