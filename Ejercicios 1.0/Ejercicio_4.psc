@@ -5,10 +5,10 @@ Algoritmo Ejercicio_4
 	Leer num2;
 	Leer num3;
 	
-	Si (num1>num2 y num1>num3) Entonces
+	Si (num1>=num2 y num1>=num3) Entonces
 		Escribir num1 " es el número mas grande de los tres";
 	SiNo
-		Si (num2>num1 y num2>num3) Entonces
+		Si (num2>=num1 y num2>=num3) Entonces
 			Escribir num2 " es el número mas grande de los tres";
 		SiNo
 			Escribir num3 " es el número mas grande de los tres";
