@@ -1,6 +1,6 @@
 Algoritmo Ejercicio_8
 	Definir mes Como Caracter
-	Definir compra Como Entero
+	Definir compra Como real
 	Definir descuento Como Real
 	descuento=0.15;
 	

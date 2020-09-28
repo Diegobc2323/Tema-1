@@ -6,12 +6,10 @@ Algoritmo ejercicio_10
 	Leer num;
 	
 	
-	Mientras (num=0) Hacer
+	Mientras (num==0) Hacer
 		
-		si (num==0) Entonces
-			Escribir "Dime otro número";
-			Leer num;
-		FinSi
+		Escribir "Dime otro número";
+		Leer num;
 		
 	Fin Mientras
 	

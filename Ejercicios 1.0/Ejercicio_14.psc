@@ -1,5 +1,5 @@
 Algoritmo Ejercicio_14
-	Definir inicio, resultado, posicion Como Entero;
+	Definir inicio, resultado, posicion, final Como Entero;
 	
 	Escribir "Dime un número y te dare la suma de los 5 siguientes pares";
 	leer inicio;
@@ -8,7 +8,7 @@ Algoritmo Ejercicio_14
 	final=inicio;
 	
 	
-	Si (inicio%2=0) Entonces
+	Si (inicio%2==0) Entonces
 		
 		Mientras (posicion<final) Hacer
 			resultado=resultado+inicio;
