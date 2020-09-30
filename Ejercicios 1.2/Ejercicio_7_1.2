@@ -1,0 +1,23 @@
+Algoritmo Ejercicio_7
+	Definir num, sumaPar, sumaImpar Como Entero;
+	
+	num=0;
+	sumaImpar=0;
+	sumaPar=0;
+	
+	Mientras num<=100 Hacer
+		Escribir num;
+		
+		si num%2==0 Entonces
+			sumaPar=sumaPar+num
+		SiNo
+			sumaImpar=sumaImpar+num;
+		FinSi
+		
+		num=num+1;
+	Fin Mientras
+	
+	Escribir  "La suma de los pares es " sumaPar " y la suma de los impares es " sumaImpar;
+	
+	
+FinAlgoritmo

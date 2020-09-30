@@ -1,0 +1,26 @@
+Algoritmo Ejercicio_8
+	
+	Definir num, min, max, contador Como entero
+	
+	contador=5;
+	min=900000;
+	max=0;
+	
+	Mientras contador<>0 Hacer
+		
+		Leer num;
+		
+		si num>max Entonces
+			max=num;
+		FinSi
+		
+		si num<min Entonces
+			min=num;
+		FinSi
+		
+		contador=contador-1
+	Fin Mientras
+	
+	Escribir "De los números que me has dado, " min " es el mas pequeño y " max " es el mas grande"
+	
+FinAlgoritmo
