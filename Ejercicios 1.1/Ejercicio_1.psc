@@ -10,12 +10,14 @@ Algoritmo Ejercicio_1
 		Escribir "Dime el salario de uno de tus empleados";
 		Leer salario;
 		
-		si salario>200 Entonces
-			sal200=sal200+1
-		FinSi
+		
 		
 		si salario>500 Entonces
 			sal500=sal500+1
+		SiNo
+			si salario>200 Entonces
+				sal200=sal200+1
+			FinSi
 		FinSi
 		
 		num_emple=num_emple-1;
