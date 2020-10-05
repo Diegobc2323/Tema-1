@@ -1,0 +1,12 @@
+Algoritmo Ejercicio_5
+	definir frase Como Caracter
+	definir cont Como Entero
+	
+	Escribir "Dime una frase y te dire cuantas palabras tiene";
+	leer frase;
+	
+	Para i=0 Hasta Longitud(frase) Con Paso 1 Hacer
+		secuencia_de_acciones
+	Fin Para
+	
+FinAlgoritmo

@@ -1,0 +1,18 @@
+Algoritmo Ejercicio_3
+	Definir nombre Como Caracter
+	Definir i, cont Como Entero
+	cont=0;
+	Escribir "Dime tu nombre y te dire cuantas vocales tiene";
+	leer nombre;
+	
+	Para i=0 Hasta Longitud(nombre) Con Paso 1 Hacer
+		
+		si (Minusculas(subcadena(nombre,i,i)) = "a") o (Minusculas(subcadena(nombre,i,i)) = "e") o (Minusculas(subcadena(nombre,i,i)) = "i") o (Minusculas(subcadena(nombre,i,i)) = "o") o (Minusculas(subcadena(nombre,i,i)) = "u")  Entonces
+			cont=cont+1;
+		FinSi
+		
+	FinPara
+	
+	Escribir "Tu nombre tiene " cont " vocales";
+	
+FinAlgoritmo

@@ -1,0 +1,44 @@
+Algoritmo Ejercicio_4
+	Definir nombre, a, e, i, voc, u Como Caracter
+	Definir num Como Entero
+	
+	a="a";
+	e="e";
+	i="i";
+	voc="o";
+	u="u";
+	
+	Escribir "Dime tu nombre y te dare sus vocales en orden y sin repetir";
+	Leer nombre;
+	nombre=Minusculas(nombre)
+	
+	Para num=0 Hasta Longitud(nombre) Con Paso 1 Hacer
+		Si (Subcadena(nombre,num,num)==a) Entonces
+			Escribir a; Sin Saltar;
+			a="";
+		FinSi
+		
+		Si (Subcadena(nombre,num,num)==e) Entonces
+			Escribir e; Sin Saltar;
+			e="";
+		FinSi
+		
+		Si (Subcadena(nombre,num,num)==i) Entonces
+			Escribir i; Sin Saltar;
+			i="";
+		FinSi
+		
+		Si (Subcadena(nombre,num,num)==voc) Entonces
+			Escribir voc; Sin Saltar;
+			voc="";
+		FinSi
+		
+		Si (Subcadena(nombre,num,num)==u) Entonces
+			Escribir u; Sin Saltar;
+			u="";
+		FinSi
+		
+	Fin Para
+	
+	
+FinAlgoritmo

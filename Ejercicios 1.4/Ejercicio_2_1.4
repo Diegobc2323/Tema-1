@@ -1,0 +1,21 @@
+Algoritmo Ejercicio_2
+	
+	Definir nombre Como Caracter;
+	Definir i Como Entero;
+	
+	Escribir "Dime tu nombre y lo escribire alternando mayusculas y minusculas";
+	leer nombre;
+	
+	Para i=0 Hasta Longitud(nombre) Con Paso 1 Hacer
+		
+		si i%2==0 Entonces
+			Escribir Minusculas(Subcadena(nombre,i,i)) Sin Saltar;
+		SiNo
+			Escribir Mayusculas(Subcadena(nombre,i,i)) Sin Saltar;
+		FinSi
+		
+	Fin Para
+	Escribir "";
+	
+	
+FinAlgoritmo
