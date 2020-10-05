@@ -1,0 +1,23 @@
+Algoritmo Ejercicio_10
+	
+	Definir i, cont Como Entero
+	Definir frase, letra, comp Como Caracter;
+	
+	cont=0;
+	
+	Escribir "Dime una frase";
+	leer frase;
+	
+	Escribir "Dime una letra y te dire cuantas veces aparece en la frase que me has escrito";
+	leer letra;
+	
+	Para i=0 Hasta Longitud(frase) Con Paso 1 Hacer
+		comp=subcadena(frase,i,i);
+		si comp==letra Entonces
+			cont=cont+1
+		FinSi
+	Fin Para
+	
+	Escribir "En la frase que me has escrito la letra " letra " aparece " cont " veces";
+	
+FinAlgoritmo
