@@ -1,0 +1,22 @@
+Algoritmo Ejercicio_5
+	definir frase Como Caracter
+	definir cont Como Entero
+	
+	
+	
+	Escribir "Dime una frase y te dire cuantas palabras tiene";
+	leer frase;
+	
+	si frase<>"" Entonces
+		cont=1;
+	FinSi
+	
+	Para i=0 Hasta Longitud(frase) Con Paso 1 Hacer
+		si minusculas(subcadena(frase,i,i))==" " y minusculas(subcadena(frase,i+1,i+1))<>" " Entonces
+			cont=cont+1;
+		FinSi
+	Fin Para
+	
+	Escribir "Tu frase tiene " cont " palabras";
+	
+FinAlgoritmo
