@@ -1,44 +1,62 @@
 Algoritmo Ejercicio_4
-	Definir nombre, a, e, i, voc, u Como Caracter
+	Definir nombre Como Caracter
 	Definir num Como Entero
+	definir a, e, i, voc, u Como Logico
 	
-	a="a";
-	e="e";
-	i="i";
-	voc="o";
-	u="u";
+	a=falso;
+	e=falso;
+	i=falso;
+	voc=falso;
+	u=falso;
 	
 	Escribir "Dime tu nombre y te dare sus vocales en orden y sin repetir";
 	Leer nombre;
-	nombre=Minusculas(nombre)
+	nombre=Minusculas(nombre);
 	
 	Para num=0 Hasta Longitud(nombre) Con Paso 1 Hacer
-		Si (Subcadena(nombre,num,num)==a) Entonces
-			Escribir a; Sin Saltar;
-			a="";
+		Si (Subcadena(nombre,num,num)=="a") Entonces
+			a=Verdadero;
 		FinSi
 		
-		Si (Subcadena(nombre,num,num)==e) Entonces
-			Escribir e; Sin Saltar;
-			e="";
+		Si (Subcadena(nombre,num,num)=="e") Entonces
+			e=Verdadero;
 		FinSi
 		
-		Si (Subcadena(nombre,num,num)==i) Entonces
-			Escribir i; Sin Saltar;
-			i="";
+		Si (Subcadena(nombre,num,num)=="i") Entonces
+			i=Verdadero;
 		FinSi
 		
-		Si (Subcadena(nombre,num,num)==voc) Entonces
-			Escribir voc; Sin Saltar;
-			voc="";
+		Si (Subcadena(nombre,num,num)=="o") Entonces
+			voc=Verdadero;
 		FinSi
 		
-		Si (Subcadena(nombre,num,num)==u) Entonces
-			Escribir u; Sin Saltar;
-			u="";
+		Si (Subcadena(nombre,num,num)=="u") Entonces
+			u=Verdadero;
 		FinSi
 		
 	Fin Para
+	
+	Si a==Verdadero Entonces
+		Escribir "a" Sin Saltar;
+	FinSi
+	
+	Si e==Verdadero Entonces
+		Escribir "e" Sin Saltar;
+	FinSi
+	
+	Si i==Verdadero Entonces
+		Escribir "i" Sin Saltar;
+	FinSi
+	
+	Si voc==Verdadero Entonces
+		Escribir "o" Sin Saltar;
+	FinSi
+	
+	Si u==Verdadero Entonces
+		Escribir "u" Sin Saltar;
+	FinSi
+	
+	Escribir "";
 	
 	
 FinAlgoritmo

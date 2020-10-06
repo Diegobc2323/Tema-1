@@ -1,0 +1,15 @@
+Algoritmo Ejercicio_6
+	Definir nombre Como Caracter;
+	
+	Escribir "Dime tu nombre y tus apellidos";
+	leer nombre;
+	
+	Para i=0 Hasta Longitud(nombre) Con Paso 1 Hacer
+		si (subcadena(nombre,i,i)<>" " y subcadena(nombre,i-1,i-1)=" ") o i==0 Entonces
+			Escribir Mayusculas(Subcadena(nombre,i,i)) Sin Saltar;
+		SiNo
+			Escribir Minusculas(Subcadena(nombre,i,i)) Sin Saltar;
+		FinSi
+	Fin Para
+	Escribir "";
+FinAlgoritmo
