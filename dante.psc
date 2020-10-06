@@ -1,39 +1,33 @@
 Algoritmo dantes_hell
-	definir profundidad, espacios, num, end, fondo, start Como Entero
+	definir profundidad, end, cont, i Como Entero;
 	
-	Escribir "Dime cuantos anillos tiene tu infierno"
+	Escribir "Dime cuantos anillos tiene tu infierno";
 	leer profundidad;
-	end=profundidad;
-	espacios=profundidad;
-	fondo=0;
-	num=0;
-	start=fondo;
 	
-	Repetir
+	cont=1;
+	Mientras profundidad<>0 Hacer
 		
-		Mientras espacios<>start Hacer
+		end=profundidad;
+		i=0;
+		
+		
+		Mientras i<>cont hacer
 			Escribir " " Sin Saltar;
+			i=i+1;
 		FinMientras
 		
 		Repetir
 			
 			Escribir "* " Sin Saltar;
+			
 			end=end-1;
 			
-		Hasta Que end=num
+		Hasta Que end==0
 		
 		Escribir "";
 		
-		
 		profundidad=profundidad-1;
-		
-		end=profundidad;
-		
-		espacios=profundidad;
-		start=fondo;
-		
-		
-		
-	Hasta Que profundidad=fondo;
+		cont=cont+1;
+	Fin Mientras
 	
 FinAlgoritmo
