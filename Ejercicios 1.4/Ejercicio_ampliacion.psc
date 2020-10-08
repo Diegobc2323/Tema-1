@@ -12,7 +12,7 @@ Algoritmo Ejercicio_ampliacion_1_4
 		j=j+1;
 	Hasta Que Subcadena(frase,j,j)<>" ";
 	
-	Para i=j Hasta Longitud(frase) Con Paso 1 Hacer
+	Para i=j Hasta Longitud(frase)-1 Con Paso 1 Hacer
 		
 		
 		
